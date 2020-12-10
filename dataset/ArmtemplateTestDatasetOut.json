@@ -1,0 +1,19 @@
+{
+	"name": "ArmtemplateTestDatasetOut",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ArmtemplateStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "output",
+				"container": "adfblobxv6ty3w67q4mm"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
